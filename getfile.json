@@ -1,0 +1,35 @@
+{
+  
+"result": true,
+  
+"plugins_": {
+  
+  
+
+"AddedMe.lua":"[ملف امر منو ضافني](https://t.me/X6UX6/7)",
+  
+"TagAll.lua":"[ملف تاك منفصل للاعضاء](https://t.me/X6UX6/8)",
+  
+"TagAdmins.lua":"[ملف تاك منفصل للمشرفين](https://t.me/X6UX6/9)",
+  
+"ReplyBot.lua":"[ملف الردود الخاص بالسورس](https://t.me/X6UX6/14)",
+      
+"MuteNames.lua":"[ملف كتم الاسماء للمجموعات](https://t.me/X6UX6/10)",
+  
+"ProNames.lua":"[ملف وضع التوحيد للمجموعات](https://t.me/X6UX6/12)",
+  
+"ChangeName.lua":"[ملف التنبيه لتغيير الاسم](https://t.me/X6UX6/5)",
+    
+"ChangeUser.lua":"[ملف التنبيه لتغيير المعرف](https://t.me/X6UX6/6)",
+  
+"ChangePhoto.lua":"[ملف التنبيه لتغيير الصوره](https://t.me/X6UX6/4)",
+  
+"AutoFile.lua":"[ملف النسخ الاحتياطيه التلقائيه](https://t.me/X6UX6/13)",
+  
+"KtTwet.lua":"[ملف لعبة كت تويت](https://t.me/X6UX6)",
+  
+      
+  
+}
+  
+}
