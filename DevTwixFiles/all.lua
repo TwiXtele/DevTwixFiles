@@ -1,4 +1,4 @@
-local function TagAll(msg)
+local function all(msg)
 local text = msg.content_.text_
 if ChatType == 'sp' or ChatType == 'gp'  then
 if Manager(msg) then
@@ -38,5 +38,5 @@ end
 
 end
 return {
-DevTwix = TagAll
+DevTwix = all
 }
