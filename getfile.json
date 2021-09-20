@@ -4,7 +4,7 @@
   
 "plugins_": {
   
-"Game.lua":"[ملف العاب البوت](https://t.me/TwixFiles/118)",
+"Games.lua":"[ملف العاب البوت](https://t.me/TwixFiles/118)",
   
 "all.lua":"[ملف تاك منفصل للاعضاء](https://t.me/TwixFiles/111)",
 
@@ -15,8 +15,9 @@
 "ReplyBot.lua":"[ملف الردود الخاص بالسورس](https://t.me/TwixFiles/116?single)",
   
 "AutoFile.lua":"[ملف النسخ الاحتياطيه](https://t.me/TwixFiles/113)",
+ 
+"FunBot.lua":"[ملف اوامر التحشيش](https://t.me/TwixFiles/118)",
      
-  
 }
   
 }
