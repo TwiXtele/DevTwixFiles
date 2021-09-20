@@ -592,18 +592,18 @@ end
 
 if Manager(msg) then
 if text == 'تفعيل الالعاب' or text == 'تفعيل العاب' then
-if not DevRio:get(David..'HmD:Lock:Games'..msg.chat_id_) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '☨︙ردود البوت بالتاكيد مفعله ', 1, 'md')
+if not DevHmD:get(DevTwix..'HmD:Lock:Games'..msg.chat_id_) then
+Dev_HmD(msg.chat_id_, msg.id_, 1, '☨︙ردود البوت بالتاكيد مفعله ', 1, 'md')
 else
-Dev_Rio(msg.chat_id_, msg.id_, 1, '☨︙تم تفعيل ردود البوت', 1, 'md')
-DevRio:del(David..'HmD:Lock:Games'..msg.chat_id_)
+Dev_HmD(msg.chat_id_, msg.id_, 1, '☨︙تم تفعيل ردود البوت', 1, 'md')
+DevHmD:del(DevTwix..'HmD:Lock:Games'..msg.chat_id_)
 end end
 if text == 'تعطيل الالعاب' or text == 'تعطيل العاب' then
-if DevRio:get(David..'HmD:Lock:Games'..msg.chat_id_) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '☨︙ردود البوت بالتاكيد معطله ', 1, 'md')
+if DevHmD:get(DevTwix..'HmD:Lock:Games'..msg.chat_id_) then
+Dev_HmD(msg.chat_id_, msg.id_, 1, '☨︙ردود البوت بالتاكيد معطله ', 1, 'md')
 else
-DevRio:set(David..'HmD:Lock:Games'..msg.chat_id_,true)
-Dev_Rio(msg.chat_id_, msg.id_, 1, '☨︙تم تعطيل ردود البوت', 1, 'md')
+DevHmD:set(DevTwix..'HmD:Lock:Games'..msg.chat_id_,true)
+Dev_HmD(msg.chat_id_, msg.id_, 1, '☨︙تم تعطيل ردود البوت', 1, 'md')
 end end
 end
 
