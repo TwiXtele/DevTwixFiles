@@ -44,7 +44,6 @@ end end
 getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
 end 
 end
-end
 
 end
 return {
