@@ -59,7 +59,7 @@ Dev_HmD(msg.chat_id_, msg.id_, 1, '☨︙بالتاكيد تم تعطيل الا
 else
 DevHmD:set(DevTwix..'HmD:Lock:FunBot'..msg.chat_id_,true)
 Dev_HmD(msg.chat_id_, msg.id_, 1, '⌁︙تم تعطيل اوامر التحشيش', 1, 'md')
-end end
+end 
 end
 end
 
