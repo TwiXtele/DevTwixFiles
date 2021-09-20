@@ -606,7 +606,6 @@ DevRio:set(David..'HmD:Lock:Games'..msg.chat_id_,true)
 Dev_Rio(msg.chat_id_, msg.id_, 1, '☨︙تم تعطيل ردود البوت', 1, 'md')
 end end
 end
-end
 
 end
 return {
