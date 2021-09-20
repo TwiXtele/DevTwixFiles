@@ -14,9 +14,10 @@ else
 text = text..k.."~ : `"..v.."`\n"
 end end
 if #List == 0 then
-text = "☨︙*لا يوجد مطايه كلها اوادم*"
+text = "☨︙لا يوجد مطاية في المجموعة"
 end
 Dev_HmD(msg.chat_id_, msg.id_, 1, text, 1, "md")
+end
 end
 
 if msg.reply_to_message_id_ ~= 0 then
@@ -41,24 +42,6 @@ DevHmD:srem(DevTwix..'User:Donky:'..msg.chat_id_, result.sender_user_id_)
 ReplyStatus(msg,result.sender_user_id_,"Reply","☨︙تم تنزيله من قائمة المطايه") 
 end end
 getMessage(msg.chat_id_, msg.reply_to_message_id_,donky_by_reply)
-end 
-end
-end
-
-if Manager(msg) then
-if text == 'تفعيل اوامر التحشيش' or text == 'تفعيل التحشيش' then
-if not DevHmD:get(DevTwix..'HmD:Lock:FunBot'..msg.chat_id_) then
-Dev_HmD(msg.chat_id_, msg.id_, 1, '⌁︙اوامر التحشيش بالتاكيد مفعله ', 1, 'md')
-else
-Dev_HmD(msg.chat_id_, msg.id_, 1, '⌁︙تم تفعيل اوامر التحشيش', 1, 'md')
-DevHmD:del(DevTwix..'HmD:Lock:FunBot'..msg.chat_id_)
-end end
-if text == 'تعطيل ردود البوت' or text == 'تعطيل الردود' then
-if DevHmD:get(DevTwix..'HmD:Lock:FunBot'..msg.chat_id_) then
-Dev_HmD(msg.chat_id_, msg.id_, 1, '☨︙بالتاكيد تم تعطيل الاوامر', 'md')
-else
-DevHmD:set(DevTwix..'HmD:Lock:FunBot'..msg.chat_id_,true)
-Dev_HmD(msg.chat_id_, msg.id_, 1, '⌁︙تم تعطيل اوامر التحشيش', 1, 'md')
 end 
 end
 end
