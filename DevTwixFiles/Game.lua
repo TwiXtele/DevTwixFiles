@@ -137,7 +137,25 @@ end
 DevHmD:set(DevTwix..'HmD:Games:Ids'..msg.chat_id_,true)
 end
 end
+
+if Manager(msg) then
+if text == 'تفعيل الالعاب' or text == 'تفعيل العاب' then
+if not DevHmD:get(DevTwix..'HmD:Lock:Games'..msg.chat_id_) then
+Dev_HmD(msg.chat_id_, msg.id_, 1, '☨︙بالتاكيد تم تعطيل الالعاب', 1, 'md')
+else
+Dev_HmD(msg.chat_id_, msg.id_, 1, '⌁︙تم تفعيل الالعاب', 1, 'md')
+DevHmD:del(DevTwix..'HmD:Lock:Games'..msg.chat_id_)
+end end
+if text == 'تعطيل الالعاب' or text == 'تعطيل العاب' then
+if DevHmD:get(DevTwix..'HmD:Lock:Games'..msg.chat_id_) then
+Dev_HmD(msg.chat_id_, msg.id_, 1, '⌁︙بالتاكيد تم تعطيل الالعاب ', 1, 'md')
+else
+DevHmD:set(DevTwix..'HmD:Lock:Games'..msg.chat_id_,true)
+Dev_HmD(msg.chat_id_, msg.id_, 1, '⌁︙تم تعطيل الالعاب', 1, 'md')
+end end
 end
+end
+
 
 end
 return {
