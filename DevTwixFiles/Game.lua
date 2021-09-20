@@ -605,7 +605,6 @@ else
 DevHmD:set(DevTwix..'HmD:Lock:Games'..msg.chat_id_,true)
 Dev_HmD(msg.chat_id_, msg.id_, 1, '☨︙تم تعطيل ردود البوت', 1, 'md')
 end 
-end
 
 end
 return {
