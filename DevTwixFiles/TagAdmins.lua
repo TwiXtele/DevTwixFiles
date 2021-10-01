@@ -4,7 +4,7 @@ if ChatType == 'sp' or ChatType == 'gp'  then
 if Manager(msg) then
 if text == "admin" or text == "@admin" or text == "#all" then
 if DevHmD:get(DevTwix.."HmD:TagAdmins:Time"..msg.chat_id_..':'..msg.sender_user_id_) then  
-Dev_HmD(msg.chat_id_, msg.id_, 1, '⌁︙انتظر دقيقه بعد ارسال الامر', 1, 'md')
+Dev_HmD(msg.chat_id_, msg.id_, 1, '✫︙انتظر دقيقه بعد ارسال الامر', 1, 'md')
 return false  
 end
 DevHmD:setex(DevTwix..'HmD:TagAdmins:Time'..msg.chat_id_..':'..msg.sender_user_id_,300,true)
