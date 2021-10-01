@@ -107,17 +107,17 @@ end
 if Manager(msg) then
 if text == 'تفعيل ردود البوت' or text == 'تفعيل الردود' then
 if not DevHmD:get(DevTwix..'HmD:Lock:Reply'..msg.chat_id_) then
-Dev_HmD(msg.chat_id_, msg.id_, 1, '✫∫ ردود البوت بالتاكيد مفعله ', 1, 'md')
+Dev_HmD(msg.chat_id_, msg.id_, 1, '✫︙ ردود البوت بالتاكيد مفعله ', 1, 'md')
 else
-Dev_HmD(msg.chat_id_, msg.id_, 1, '✫∫ تم تفعيل ردود البوت', 1, 'md')
+Dev_HmD(msg.chat_id_, msg.id_, 1, '✫︙ تم تفعيل ردود البوت', 1, 'md')
 DevHmD:del(DevTwix..'HmD:Lock:Reply'..msg.chat_id_)
 end end
 if text == 'تعطيل ردود البوت' or text == 'تعطيل الردود' then
 if DevHmD:get(DevTwix..'HmD:Lock:Reply'..msg.chat_id_) then
-Dev_HmD(msg.chat_id_, msg.id_, 1, '✫∫ ردود البوت بالتاكيد معطله ', 1, 'md')
+Dev_HmD(msg.chat_id_, msg.id_, 1, '✫︙ ردود البوت بالتاكيد معطله ', 1, 'md')
 else
 DevHmD:set(DevTwix..'HmD:Lock:Reply'..msg.chat_id_,true)
-Dev_HmD(msg.chat_id_, msg.id_, 1, '✫∫ تم تعطيل ردود البوت', 1, 'md')
+Dev_HmD(msg.chat_id_, msg.id_, 1, '✫︙ تم تعطيل ردود البوت', 1, 'md')
 end end
 end
 end
